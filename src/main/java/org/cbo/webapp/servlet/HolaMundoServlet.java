@@ -16,7 +16,7 @@ public class HolaMundoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.print();
+
     }
 
 
